@@ -2,8 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 50px;
-  background: linear-gradient(to-top #E5F8FE 100%, to-bottom #fff 0%);
+  padding: 0px 50px;
+  height: 60px;
+  background-color:#E5F8FE ;
+  position: sticky;
+  top: 0;
+  width: 100%;
+
   .left {
     img {
       width: 70px;
@@ -17,6 +22,11 @@
       justify-content: space-between;
       list-style: none;
       gap: 1rem;
+
+      li{
+        color: #3A3A3A;
+        cursor: pointer;
+      }
     }
   }
 
@@ -25,14 +35,14 @@
         font-size: 16px;
         border: none;
         background-color: transparent;
-        color: #000;
+        color: #056499;
         margin-right: 20px;
     }
    
     .signup {
       padding: 10px 15px;
       font-size: 15px;
-      background: #000;
+      background: #056499;
       color: #fff;
       border-radius: 20px;
       border: none;

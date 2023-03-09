@@ -1,0 +1,140 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(#e5f8fe 100%, #fff 0%);
+
+  .hero-left {
+    width: 100%;
+    margin-left: 100px;
+
+    span {
+      padding: 10px 15px;
+      border-radius: 30px;
+      font-size: 26px;
+      color: #3a3a3a;
+      background-color: #d2f4ff;
+    }
+    h1 {
+      color: #3a3a3a;
+      margin: 20px 0;
+      display: flex;
+      padding: 0;
+      font-size: 46px;
+      flex-direction: column;
+
+      b {
+        color: #3282ad;
+        background: none;
+        // font-size: 32px;
+      }
+    }
+
+    button {
+      padding: 10px;
+      border: 2px solid #3282ad;
+      color: #3282ad;
+    }
+  }
+  .hero-right {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    width: 100%;
+    margin-right: 50px;
+
+    .tourist {
+      position: absolute;
+      top: 15%;
+      right: 18%;
+      width: 300px;
+      height: 300px;
+      border-radius: 0px 0px 50% 50%;
+    }
+    .world_map {
+      height: 300px;
+      width: 600px;
+      position: absolute;
+      top: 20%;
+      right: 4%;
+      transform: matrix(-0.97, 0.26, 0.26, 0.97, -7, 5);
+    }
+
+    //Circle
+    .circle1 {
+      width: 200px;
+      height: 200px;
+      background-color: #0b232b;
+      border-radius: 50%;
+      position: absolute;
+      top: 31%;
+      left: 48%;
+    }
+    .circle2 {
+      width: 250px;
+      height: 250px;
+      background-color: #588ea0;
+      border-radius: 50%;
+      position: absolute;
+      // background: linear-gradient();
+      top: 18%;
+      left: 40%;
+      z-index: 1;
+    }
+    .circle3 {
+      width: 300px;
+      height: 300px;
+      background-color: #1f88ac;
+      border-radius: 50%;
+      position: absolute;
+      top: 31%;
+      left: 48%;
+    }
+
+    .card_lg {
+      width: 150px;
+      z-index: 999;
+      position: absolute;
+      bottom: 30%;
+      left: 15%;
+      background-color: #fff;
+      padding: 3px;
+
+      strong {
+        font-size: 14px;
+      }
+      span {
+        font-size: 10px;
+        display: block;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .card_sm {
+      width: 90px;
+      position: absolute;
+      top: 38%;
+      right: 16%;
+      background-color: #fff;
+      padding: 2px;
+
+      strong {
+        font-size: 8px;
+      }
+      span {
+        font-size: 6px;
+        display: block;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
