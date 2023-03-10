@@ -12,7 +12,7 @@ const HeroBanner = () => {
         <h1>
           The Exotic<b>Lakshadweep</b>Islands
         </h1>
-        <button>Discover Now</button>
+        <button className="discover">Discover Now</button>
       </div>
       <div className="hero-right">
         <img src={tourist} alt="" className="tourist" />

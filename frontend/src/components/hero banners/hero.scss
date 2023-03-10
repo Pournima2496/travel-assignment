@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(#e5f8fe 100%, #fff 0%);
+  height: 90vh;
+  background-image: linear-gradient(#e5f8fe, #fff );
 
   .hero-left {
     width: 100%;
@@ -30,18 +31,14 @@
       }
     }
 
-    button {
-      padding: 10px;
-      border: 2px solid #3282ad;
-      color: #3282ad;
-    }
+   
   }
   .hero-right {
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 60px);
+    height: 100%;
     width: 100%;
     margin-right: 50px;
 
@@ -136,5 +133,12 @@
         height: 100%;
       }
     }
+  }
+}
+
+
+@media screen and ((min-width:300px) and (max-width:600px)) {
+  .hero{
+    flex-direction: column;
   }
 }
