@@ -1,0 +1,31 @@
+.testimonial {
+  margin: 0 100px;
+  text-align: center;
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .card {
+      background-color: #fff;
+      box-shadow: 0px 1px 8px -4px;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px 10px 10px 10px;
+
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+      }
+      .card-data {
+        padding: 120px;
+
+     
+      }
+    }
+  }
+}

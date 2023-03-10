@@ -13,6 +13,15 @@ const Feature = () => {
 
   return (
     <div className="featured">
+      <div className="center">
+        <h3 className="heading">Island Stays</h3>
+        <p className="para top">
+          One can choose from a variety of beautiful coral islands which offers
+          different staying experiences from thatched huts to luxurious modern
+          properties. Every island offers a wider range of water sports and
+          beach activities for you to enjoy.
+        </p>
+      </div>
       <div className="cards center">
         {images.map((img) => (
           <div className="card">
