@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.scss";
 import tourist from "../../assets/Layer 1 1.png";
-import worldMap from "../../assets/world_map_PNG28 3.png";
+import worldmap from "../../assets/world-map.png";
 import card1 from "../../assets/Rectangle 9.png";
 
 const HeroBanner = () => {
@@ -16,7 +16,7 @@ const HeroBanner = () => {
       </div>
       <div className="hero-right">
         <img src={tourist} alt="" className="tourist" />
-        <img src={worldMap} alt="" className="world_map" />
+        <img src={worldmap} alt="" className="world_map" />
         {/* <div className="circle1"/> */}
         {/* <div className="circle2"/> */}
         {/* <div className="circle3"/> */}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./feature.scss";
-import Card from "../card/Card";
 import img1 from "../../assets/img1.jpg";
 import img2 from "../../assets/img2.jpg";
 import img3 from "../../assets/img3.jpg";
@@ -25,7 +24,7 @@ const Feature = () => {
       <div className="cards center">
         {images.map((img) => (
           <div className="card">
-            <Card img={img} />
+            <img src={img} alt="" />
             <div className="card-data">
               <span className="card-title">Kavaratti</span>
               <p className="para">

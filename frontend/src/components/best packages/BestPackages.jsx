@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "../card/Card";
 import "./bestpackage.scss";
 import photo1 from "../../assets/photo.jpg";
 import photo2 from "../../assets/photo-1.jpg";
@@ -26,7 +25,7 @@ const BestPackages = () => {
       <div className="cards center">
         {images.map((img) => (
           <div className="card">
-            <Card img={img} />
+            <img src={img} alt="" />
             <div className="card-data">
               <div className="card-title">
                 <span>Indonesia</span>
